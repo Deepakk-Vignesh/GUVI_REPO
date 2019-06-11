@@ -7,4 +7,4 @@ int main(){
   printf("Alphabet");
   else
   printf("No");
-  }
+}
