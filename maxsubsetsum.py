@@ -12,4 +12,4 @@ else :
 	for x in l1 :
 		if x<0 :
 			l1.remove(x)
-	print(sum(l1),end=" ")
+	print(sum(l1),end="")
