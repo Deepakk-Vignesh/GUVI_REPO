@@ -68,7 +68,7 @@ int main(void) {
   return 0;
   }
 	mergesort(a,0,n-1);
-	for(i=0;i<n-1;i++){
+	for(i=0;i<n;i++){
 		printf("%d",a[n-1-i]);
 	}
 	return 0;
