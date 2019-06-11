@@ -11,7 +11,7 @@ int main(void) {
 		if((i%2&&a[i]%2==0)||(i%2==0&&a[i]%2)){
 			k++;
 			printf("%d",a[i]);
-			if(i<n-1)
+			if(i<=n-2)
 			printf(" ");
 		}
 	}
