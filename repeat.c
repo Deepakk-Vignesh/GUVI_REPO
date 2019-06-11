@@ -56,7 +56,7 @@ void mergesort(int arr[], int l, int r)
 } 
 
 int main(void) {
-	int n,i,j;
+	int n,i,j,k=0;
 	scanf("%d",&n);
 	int a[n];
 	for(i=0;i<n;i++){
@@ -68,12 +68,14 @@ int main(void) {
 			continue;
 		}
 		else{
-			
+			k++;
 				printf("%d ",a[i]);
 			while(a[i]==a[i+1]){
 				i++;
 			}
 		}
 	}
+	if(k==0)
+	printf("unique");
 	return 0;
 }
