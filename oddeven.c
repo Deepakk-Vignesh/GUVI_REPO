@@ -10,7 +10,9 @@ int main(void) {
 		scanf("%ld",&a[i]);
 		if((i%2&&a[i]%2==0)||(i%2==0&&a[i]%2)){
 			k++;
-			printf("%d ",a[i]);
+			printf("%d",a[i]);
+			if(i<n-1)
+			printf(" ");
 		}
 	}
 	if(k==0)
