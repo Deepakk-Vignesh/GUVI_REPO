@@ -1,3 +1,4 @@
+#changed
 n,q=map(int,input().split())
 b=list(map(int,input().split()))
 for x in range (q):
